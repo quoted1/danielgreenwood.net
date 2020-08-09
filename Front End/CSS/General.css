@@ -195,7 +195,7 @@ input::-webkit-input-placeholder {
     text-align: center;
     color: #1b262c;
     font-weight: 700;
-    font-size: 10em;
+    font-size: 8em;
 }
 
 .paraImage{
@@ -204,7 +204,7 @@ input::-webkit-input-placeholder {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 .paraImage_lin{
     position: absolute;
