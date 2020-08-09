@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#bodystyle_01 {
+    background-color: #bbe1fa;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.31'%3E%3Cpolygon fill='%2390cbf1' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%2369b4e3' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23489dd1' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%233881ac' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%2333627c' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23294352' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%231b262c' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#bodystyle_02{
+    background-color: #bbe1fa;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23bbe1fa' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2399c1de' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%2378a2c3' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%235884a8' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2337688e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%230f4c75' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#bodystyle_03{
+    background-color: #bbe1fa;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23bbe1fa' width='11' height='11'/%3E%3Crect fill='%23b8def8' x='10' width='11' height='11'/%3E%3Crect fill='%23b5dcf5' y='10' width='11' height='11'/%3E%3Crect fill='%23b2d9f3' x='20' width='11' height='11'/%3E%3Crect fill='%23afd6f0' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23acd3ee' y='20' width='11' height='11'/%3E%3Crect fill='%23aad1ec' x='30' width='11' height='11'/%3E%3Crect fill='%23a7cee9' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23a4cbe7' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23a1c9e5' y='30' width='11' height='11'/%3E%3Crect fill='%239ec6e2' x='40' width='11' height='11'/%3E%3Crect fill='%239bc3e0' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2398c1de' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2396bedb' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2393bbd9' y='40' width='11' height='11'/%3E%3Crect fill='%2390b9d7' x='50' width='11' height='11'/%3E%3Crect fill='%238db6d4' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%238ab4d2' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2388b1d0' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2385aecd' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%2382accb' y='50' width='11' height='11'/%3E%3Crect fill='%237fa9c9' x='60' width='11' height='11'/%3E%3Crect fill='%237ca7c7' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%237aa4c4' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%2377a1c2' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23749fc0' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23719cbd' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%236f9abb' x='70' width='11' height='11'/%3E%3Crect fill='%236c97b9' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%236995b7' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%236692b4' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23648fb2' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23618db0' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%235e8aae' x='80' width='11' height='11'/%3E%3Crect fill='%235c88ab' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%235985a9' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%235683a7' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%235380a5' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23517ea3' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%234e7ca0' x='90' width='11' height='11'/%3E%3Crect fill='%234b799e' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2348779c' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2346749a' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23437298' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23406f95' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%233d6d93' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%233b6a91' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%2338688f' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%2335668d' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%2332638a' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%232f6188' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%232c5f86' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23295c84' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23265a82' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23235880' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%231f557e' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%231c537b' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23185179' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23144e77' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%230f4c75' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.pageItem{
+    background-color: #bbe1fa;
+    color: #1b262c;
+}
+.pageItem:hover{
+    color: #1b262c;
+    background-color: #3282b8;
+}
+.navItem{
+    border-left: 1px solid #bbe1fa;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    padding: 5px;
+}
+.header {
+    background-color: #1b262c;
+    color: #393e46;
+    height:auto;
+    border:1px solid #0f4c75;
+    border-radius: 5px;
+    margin: 2px;
+
+}
+.header_invert {
+    color: #1b262c;
+    height:auto;
+    margin: 2px;
+}
+.header_invert a {
+    margin: 0px 5px;
+    color: #3282b8;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    transition: 0.2s;
+}
+.header_invert a:hover {
+    color: #0f4c75;
+}
+.hText{
+    margin: 5px;
+    color: #bbe1fa;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    transition: 0.2s;
+
+}
+.hText:hover{
+   color: #3282b8;
+}
+.hText:active{
+   color: white;
+}
+.below-header-far{
+    margin-top: 125px;
+}
+.below-header-close{
+    margin-top: 75px;
+}
+.in-line{
+    justify-content: center;
+}
+.hLogo {
+    height: 50px;
+    margin: 5px 0;
+}
+.navButton {
+    width: auto;
+    padding:5px 45px;
+    border-left:1px solid #76ead7;
+    background-color: #393e46; 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+.navButton:hover {
+    background-color: #969696;
+    color: black;
+    border-left:1px solid #76ead7;
+}
+
+input {
+    color: ghostwhite;
+    background-color: #404040;
+}
+
+input::-webkit-input-placeholder {
+    color: #b7b7b7;
+}
+
+#mainContent {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageObject {
+    padding: 5px;
+}
+
+.pageButton {
+    padding: 5px;
+}
+
+.center {
+    margin: 0 auto;
+    text-align:center;
+}
+
+.dropdownParent {
+   background-color: #1b262c;
+   border: 1px solid #bbe1fa;
+   transition: 0.2s;
+}
+.dropdownParent a {
+    color: #bbe1fa;
+    font-size: 18px;
+    font-weight: 550;
+    transition: 0.2s;
+}
+.dropdownParent a:hover {
+    color: #3282b8;
+    background-color: #1b262c;
+}
+.dropdownParent a:active {
+    color: white;
+    background-color: #1b262c;
+}
+.dropdownParent p {
+    color: #bbe1fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+.centered{
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitleText{
+    position: relative;
+    text-align: center;
+    color: #1b262c;
+    font-weight: 700;
+    font-size: 10em;
+}
+
+.paraImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.paraImage_lin{
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.physicsObject{
+    position: absolute;
+    top: 28%;
+}
+
+.media_carousel{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    position: relative;
+}
+.media_carousel img{
+    height: auto;
+    width: 1200px;
+    display: block;
+}
