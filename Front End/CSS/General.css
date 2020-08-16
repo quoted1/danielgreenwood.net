@@ -55,9 +55,7 @@ body{
     background-color: #1b262c;
     color: #393e46;
     height:auto;
-    border:1px solid #0f4c75;
-    border-radius: 5px;
-    margin: 2px;
+   
 
 }
 .header_invert {
@@ -195,7 +193,7 @@ input::-webkit-input-placeholder {
     text-align: center;
     color: #1b262c;
     font-weight: 700;
-    font-size: 8em;
+    font-size: 6em;
 }
 
 .paraImage{
@@ -223,11 +221,38 @@ input::-webkit-input-placeholder {
 .media_carousel{
     display: flex;
     justify-content: center;
-    margin: 5%;
     position: relative;
+    border-left: 5px solid #1b262c;
+    border-right: 5px solid #1b262c;
+
+    border-radius: 10px; 
 }
-.media_carousel img{
-    height: auto;
-    width: 1200px;
+.media_carousel video, .media_carousel img{
+    max-height: 512px;
     display: block;
+    margin:10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(27,38,44,1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(27,38,44,1);
+    box-shadow: 2px 2px 5px 0px rgba(27,38,44,1);
+}
+
+.abtme_col_l {
+     font-size: 1.7em;
+     font-weight: 500;
+}
+.abtme_col_r{
+    border-top: 5px solid #bbe1fa;
+    border-bottom: 5px solid #bbe1fa;
+
+    border-radius: 10px; 
+}
+.abtme_col_r img {
+    max-width: 400px;
+    border: 5px solid #bbe1fa;
+    border-radius: 5px;
+    margin: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(27,38,44,1);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(27,38,44,1);
+    box-shadow: 3px 3px 7px 0px rgba(27,38,44,1);
 }
