@@ -193,7 +193,7 @@ input::-webkit-input-placeholder {
     text-align: center;
     color: #1b262c;
     font-weight: 700;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 .paraImage{
@@ -237,10 +237,6 @@ input::-webkit-input-placeholder {
     box-shadow: 2px 2px 5px 0px rgba(27,38,44,1);
 }
 
-.abtme_col_l {
-     font-size: 1.7em;
-     font-weight: 500;
-}
 .abtme_col_r{
     border-top: 5px solid #bbe1fa;
     border-bottom: 5px solid #bbe1fa;
@@ -295,4 +291,10 @@ input::-webkit-input-placeholder {
 .carousel-card .text{
     font-weight: 700;
     font-size: 3em;
+}
+.pageText_s {
+    font-size:1.3em;
+}
+.pageText_l {
+    font-size:1.7em;
 }
