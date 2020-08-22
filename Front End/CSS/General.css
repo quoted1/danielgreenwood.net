@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+
 }
 body{
     margin: 0;
@@ -59,7 +61,6 @@ h1{
     margin: 0px 5px;
     color: #3282b8;
     font-size: 18px;
-    font-weight: 700;
     vertical-align: middle;
     transition: 0.2s;
 }
@@ -69,11 +70,9 @@ h1{
 .hText{
     margin: 5px;
     color: #bbe1fa;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 1.4em;
     vertical-align: middle;
     transition: 0.2s;
-
 }
 .hText:hover{
    color: #3282b8;
@@ -104,7 +103,6 @@ h1{
 .dropdownParent a {
     color: #bbe1fa;
     font-size: 18px;
-    font-weight: 550;
     transition: 0.2s;
 }
 .dropdownParent a:hover {
@@ -118,7 +116,6 @@ h1{
 .dropdownParent p {
     color: #bbe1fa;
     font-size: 18px;
-    font-weight: 700;
 }
 .centered{
     position: absolute;
@@ -143,7 +140,6 @@ h1{
     position: relative;
     text-align: center;
     color: #1b262c;
-    font-weight: 700;
     font-size: 5em;
 }
 
@@ -235,7 +231,6 @@ h1{
     height: 14%
 }
 .carousel-card .text{
-    font-weight: 700;
     font-size: 3em;
 }
 .pageText_s {
@@ -249,7 +244,6 @@ h1{
 }
 
 .page-nav-LR{
-    font-weight: 700;
     font-size: 5em;
     text-align: center;
     padding:44vh 0;
