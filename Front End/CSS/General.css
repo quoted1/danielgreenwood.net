@@ -6,6 +6,8 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;
+
 }
 h1{
     font-size: 7em;
@@ -250,10 +252,10 @@ h1{
     font-weight: 700;
     font-size: 5em;
     text-align: center;
-    padding:50vh 0;
+    padding:44vh 0;
     opacity: 0.3;
     border: 2px solid #1b262c;
-    transition: 0.5s;
+    transition: 1s;
     color: #1b262c;
     display: block;
 
