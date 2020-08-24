@@ -12,3 +12,6 @@
  	- Bootstrap
  	- Packages
  		.Slick - https://kenwheeler.github.io/slick/
+	- SQL
+		.MySql
+		.phpMyAdmin
