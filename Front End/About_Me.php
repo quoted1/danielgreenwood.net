@@ -43,15 +43,15 @@
                 <li class="nav-item dropdown navItem">
                     <a class="nav-link dropdown-toggle hText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My work</a>
                     <div class="dropdown-menu dropdown-menu-right dropdownParent" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ran_Parallax.html">Parallax Effect</a>
+                        <a class="dropdown-item" href="ran_Parallax.php">Parallax Effect</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Coming_Soon.html">Coming soon</a>
+                        <a class="dropdown-item" href="Coming_Soon.php">Coming soon</a>
 
                     </div>
                 </li>
 
                 <li class="nav-item navItem">
-                    <a class="nav-link hText" href="About_Me.html" id="" role="button">About</a>
+                    <a class="nav-link hText" href="About_Me.php" id="" role="button">About</a>
                 </li>
                
             </ul>
@@ -69,7 +69,7 @@
         <div class="row">
             <div class="col-sm-8">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm">
                         <p class="text-center pageText_s">
                             Welcome, I am Daniel Greenwood and you have found my webspace!<br/>
                             I use this space to develop or create web apps using different packages and frameworks.
@@ -77,39 +77,47 @@
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-sm-12">
+                    <div class="col-sm">
                         <p class="text-center pageText_s">
                             What's been used so far:
                         </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-2  pageText_s">
-                        <img class="logo-image" src="media/images/software-development-logos/030-html-5.svg">
+                    <div class="col-sm pageText_s">
+                        <img class="softwareDev-logo-image" src="media/images/software-development-logos/030-html-5.svg">
                     </div>
-                    <div class="col-sm-2  pageText_s">
-                        <img class="logo-image" src="media/images/software-development-logos/031-css.svg">
+                    <div class="col-sm pageText_s">
+                        <img class="softwareDev-logo-image" src="media/images/software-development-logos/031-css.svg">
                     </div>
-                    <div class="col-sm-2  pageText_s">
-                        <img class="logo-image" src="media/images/software-development-logos/029-javascript.svg">
+                    <div class="col-sm pageText_s">
+                        <img class="softwareDev-logo-image" src="media/images/software-development-logos/029-javascript.svg">
                     </div>
-                    <div class="col-sm-2  pageText_s">
-                        <img class="logo-image" src="media/images/software-development-logos/027-php.svg">
+                    <div class="col-sm pageText_s">
+                        <img class="softwareDev-logo-image" src="media/images/software-development-logos/027-php.svg">
                     </div>
-                    <div class="col-sm-2  pageText_s">
-                        <img class="logo-image" src="media/images/software-development-logos/021-mysql.svg">
-                    </div>
-                    <div class="col-sm-2  pageText_s">
-                        <img class="logo-image" src="media/images/software-development-logos/010-github.svg">
+                    <div class="col-sm pageText_s">
+                        <img class="softwareDev-logo-image" src="media/images/software-development-logos/021-mysql.svg">
                     </div>
 
                 </div>
-                <div class="row below-header-close">
-                    <div class="col-sm-4">
-                        <h4 class="float-right pageText_l">Email:</h4>
-                    </div>     
-                    <div class="col-sm-8 pageText_l">
-                        <h4 class="">contact@danielgreenwood.net</h4>
+                <div class="row business-card below-header-close">
+                    <div class="row">
+                        <h4 class="text-center pageText_l">Email: contact@danielgreenwood.net</h4>
+                    </div>
+                    <div class="row social-container">
+                        <div class="col-sm pageText_s">
+                            <img class="social-logo-image" src="media/images/social-media-logos/027-linkedin.svg">
+                        </div>
+                        <div class="col-sm pageText_s">
+                            <img class="social-logo-image" src="media/images/social-media-logos/080-twitter.svg">
+                        </div>
+                        <div class="col-sm pageText_s">
+                            <img class="social-logo-image" src="media/images/social-media-logos/036-facebook.svg">
+                        </div>
+                        <div class="col-sm pageText_s">
+                            <img class="social-logo-image" src="media/images/software-development-logos/010-github.svg">
+                        </div>
                     </div>
                 </div>
             </div>

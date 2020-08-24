@@ -41,31 +41,30 @@
         <div id="navbarSupportedContent" class="ml-auto">
             <ul class="navbar-nav">
 
-
                 <li class="nav-item dropdown navItem">
                     <a class="nav-link dropdown-toggle hText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My work</a>
                     <div class="dropdown-menu dropdown-menu-right dropdownParent" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ran_Parallax.html">Parallax Effect</a>
+                        <a class="dropdown-item" href="ran_Parallax.php">Parallax Effect</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Coming_Soon.html">Coming soon</a>
+                        <a class="dropdown-item" href="Coming_Soon.php">Coming soon</a>
 
                     </div>
                 </li>
 
                 <li class="nav-item navItem">
-                    <a class="nav-link hText" href="About_Me.html" id="" role="button">About</a>
+                    <a class="nav-link hText" href="About_Me.php" id="" role="button">About</a>
                 </li>
                
             </ul>
         </div>
     </nav>
        <!--End of NavBar-->
-    
+  
     <div class="container align-middle below-header-far">
         <div class="row">
             <div class="col-sm-12">
                 <div class="media_carousel slick_H">
-                    <a href="lin_parallax.html" class="carousel-Box">
+                    <a href="lin_parallax.php" class="carousel-Box">
                         <video autoplay muted loop>
                             <source src="media/Videos/Parallax_linear.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -75,14 +74,14 @@
                         </div>
                     </a>
                     
-                    <a href="Coming_Soon.html" class="carousel-Box">
+                    <a href="Coming_Soon.php" class="carousel-Box">
                         <img src="media/Images/CarouselImages/BrainsEdenImage.jpg">
                         <div class="carousel-card">
                             <span class="align-middle text">Fire Watchers</span>
                         </div>
                     </a>
 
-                    <a href="ran_parallax.html" class="carousel-Box">
+                    <a href="ran_parallax.php" class="carousel-Box">
                         <video autoplay muted loop>
                             <source src="media/Videos/Parallax_random.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -92,7 +91,7 @@
                         </div>
                     </a>
 
-                    <a href="Coming_Soon.html" class="carousel-Box">
+                    <a href="Coming_Soon.php" class="carousel-Box">
                         <img src="media/Images/CarouselImages/year2-groupproject.jpg">
                         <div class="carousel-card">
                             <span class="align-middle text">Escape The Tower</span>

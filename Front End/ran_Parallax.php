@@ -35,19 +35,18 @@
         <div id="navbarSupportedContent" class="ml-auto">
             <ul class="navbar-nav">
 
-
                 <li class="nav-item dropdown navItem">
                     <a class="nav-link dropdown-toggle hText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My work</a>
                     <div class="dropdown-menu dropdown-menu-right dropdownParent" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ran_Parallax.html">Parallax Effect</a>
+                        <a class="dropdown-item" href="ran_Parallax.php">Parallax Effect</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Coming_Soon.html">Coming soon</a>
+                        <a class="dropdown-item" href="Coming_Soon.php">Coming soon</a>
 
                     </div>
                 </li>
 
                 <li class="nav-item navItem">
-                    <a class="nav-link hText" href="About_Me.html" id="" role="button">About</a>
+                    <a class="nav-link hText" href="About_Me.php" id="" role="button">About</a>
                 </li>
                
             </ul>
@@ -80,7 +79,7 @@
                     
                 </div>
                 <div class="col-sm-3">
-                    <a href="lin_parallax.html" class="page-nav-LR">Linear</a>
+                    <a href="lin_parallax.php" class="page-nav-LR">Linear</a>
                 </div>
             </div>
         </div>
