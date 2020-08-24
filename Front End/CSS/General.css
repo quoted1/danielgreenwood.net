@@ -49,8 +49,6 @@ h1{
     background-color: #1b262c;
     color: #393e46;
     height:auto;
-   
-
 }
 .header_invert {
     color: #1b262c;
@@ -68,7 +66,7 @@ h1{
     color: #0f4c75;
 }
 .hText{
-    margin: 5px;
+    margin: 5px 0;
     color: #bbe1fa;
     font-size: 1.4em;
     vertical-align: middle;
