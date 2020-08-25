@@ -101,23 +101,21 @@
                     </div>
 
                 </div>
-                <div class="row business-card below-header-close">
-                    <div class="row">
-                        <h4 class="text-center pageText_l">Email: contact@danielgreenwood.net</h4>
+                <div class="row mt-5">
+                    <h4 class="text-center pageText_l">Email: contact@danielgreenwood.net</h4>
+                </div>
+                <div class="row social-container">
+                    <div class="col-sm pageText_s">
+                        <img class="social-logo-image" src="media/images/social-media-logos/027-linkedin.svg">
                     </div>
-                    <div class="row social-container">
-                        <div class="col-sm pageText_s">
-                            <img class="social-logo-image" src="media/images/social-media-logos/027-linkedin.svg">
-                        </div>
-                        <div class="col-sm pageText_s">
-                            <img class="social-logo-image" src="media/images/social-media-logos/080-twitter.svg">
-                        </div>
-                        <div class="col-sm pageText_s">
-                            <img class="social-logo-image" src="media/images/social-media-logos/036-facebook.svg">
-                        </div>
-                        <div class="col-sm pageText_s">
-                            <img class="social-logo-image" src="media/images/software-development-logos/010-github.svg">
-                        </div>
+                    <div class="col-sm pageText_s">
+                        <img class="social-logo-image" src="media/images/social-media-logos/080-twitter.svg">
+                    </div>
+                    <div class="col-sm pageText_s">
+                        <img class="social-logo-image" src="media/images/social-media-logos/036-facebook.svg">
+                    </div>
+                    <div class="col-sm pageText_s">
+                        <img class="social-logo-image" src="media/images/software-development-logos/010-github.svg">
                     </div>
                 </div>
             </div>

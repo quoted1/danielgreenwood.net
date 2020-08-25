@@ -271,12 +271,19 @@ h1{
 }
 .softwareDev-logo-image{
     max-height: 75px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #1b262c;
 }
 .social-container{
     padding:0 30%;
 }
 .social-logo-image{
     max-height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #1b262c;
+
 }
 .business-card{
     padding:10px;

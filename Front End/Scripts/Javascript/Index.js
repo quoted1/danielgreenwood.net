@@ -13,7 +13,7 @@ $('.slick_H').slick({
     dots: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5400,
+    autoplaySpeed: 3400,
     speed:1400,
     variableWidth: true,
     adaptiveHeight: true,
@@ -43,7 +43,7 @@ $('.slick_V').slick({
     dots: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5400,
+    autoplaySpeed: 3400,
     speed:1400,
     vertical: true,
     responsive: [
