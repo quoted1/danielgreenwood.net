@@ -70,7 +70,12 @@ h1{
     margin: 5px 0;
     color: #bbe1fa;
     font-size: 1.4em;
-    vertical-align: middle;
+    transition: 0.2s;
+}
+.hText-sm{
+    margin: 5px 0;
+    color: #bbe1fa;
+    font-size: 1em;
     transition: 0.2s;
 }
 .hText:hover{
@@ -271,18 +276,14 @@ h1{
 }
 .softwareDev-logo-image{
     max-height: 75px;
-    padding: 5px;
-    border-radius: 50%;
-    border: 2px solid #1b262c;
+    display: inline-block;
 }
 .social-container{
     padding:0 30%;
 }
 .social-logo-image{
     max-height: 50px;
-    padding: 5px;
-    border-radius: 50%;
-    border: 2px solid #1b262c;
+    display: inline-block;
 
 }
 .business-card{

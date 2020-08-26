@@ -79,6 +79,17 @@
             </div>
         </div>
     </div>
+    <footer class="container-fluid header fixed-bottom">
+        <div class="row py-1">
+            <div class="col-sm -sm">
+                <span class="hText-sm align-middle">2020 danielgreenwood.net</span>
+            </div>
+            <div class="col-sm -sm ml-auto">
+                <span class="hText-sm align-middle float-right">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></span>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 </html>

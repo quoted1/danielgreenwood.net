@@ -35,7 +35,7 @@
             <line x1="8" y1="21" x2="8" y2="13" />
             <line x1="16" y1="21" x2="16" y2="14" />
             </svg>
-            <span class="align-middle">danielgreenwood.net</span>
+            <span >danielgreenwood.net</span>
         </a>
         <div id="navbarSupportedContent" class="ml-auto">
             <ul class="navbar-nav">
@@ -70,7 +70,7 @@
             <div class="col-sm-8">
                 <div class="row">
                     <div class="col-sm">
-                        <p class="text-center pageText_s">
+                        <p class="justify-text pageText_s">
                             Welcome, I am Daniel Greenwood and you have found my webspace!<br/>
                             I use this space to develop or create web apps using different packages and frameworks.
                         </p>
@@ -101,23 +101,6 @@
                     </div>
 
                 </div>
-                <div class="row mt-5">
-                    <h4 class="text-center pageText_l">Email: contact@danielgreenwood.net</h4>
-                </div>
-                <div class="row social-container">
-                    <div class="col-sm pageText_s">
-                        <img class="social-logo-image" src="media/images/social-media-logos/027-linkedin.svg">
-                    </div>
-                    <div class="col-sm pageText_s">
-                        <img class="social-logo-image" src="media/images/social-media-logos/080-twitter.svg">
-                    </div>
-                    <div class="col-sm pageText_s">
-                        <img class="social-logo-image" src="media/images/social-media-logos/036-facebook.svg">
-                    </div>
-                    <div class="col-sm pageText_s">
-                        <img class="social-logo-image" src="media/images/software-development-logos/010-github.svg">
-                    </div>
-                </div>
             </div>
             <div class="col-sm-4">
                 <div class="slick_V abtme_col_r">
@@ -128,17 +111,37 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <h4 class="text-center pageText_l">Email: contact@danielgreenwood.net</h4>
+            </div>
+        </div>
+        <div class="row social-container">
+            <div class="col-sm d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/daniel-g-76b92582/" target="_blank"> <img class="social-logo-image" src="media/images/social-media-logos/010-linkedin.svg"></a>
+            </div>
+            <div class="col-sm d-flex justify-content-center">
+                <a href="https://twitter.com/quoted1" target="_blank"><img class="social-logo-image" src="media/images/social-media-logos/013-twitter.svg"></a>
+            </div>
+            <div class="col-sm d-flex justify-content-center">
+                <a href="https://www.instagram.com/danielgreenwood.net_/" target="_blank"><img class="social-logo-image" src="media/images/social-media-logos/011-instagram.svg"></a>
+            </div>
+            <div class="col-sm d-flex justify-content-center">
+                <a href="https://github.com/quoted1" target="_blank"><img class="social-logo-image" src="media/images/software-development-logos/010-github.svg"></a>
+            </div>
+        </div>
     </div>
-    <nav class="navbar navbar-expand-sm header fixed-bottom">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <P>danielgreenwood.net 2019-20</P>
-            </li>
-            <li class="nav-item ml-auto">
-                Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </li>
-        </ul>
-    </nav>
+
+    <footer class="container-fluid header fixed-bottom">
+        <div class="row py-1">
+            <div class="col-sm -sm">
+                <span class="hText-sm align-middle">2020 danielgreenwood.net</span>
+            </div>
+            <div class="col-sm -sm ml-auto">
+                <span class="hText-sm align-middle float-right">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></span>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
