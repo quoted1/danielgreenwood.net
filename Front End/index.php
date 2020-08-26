@@ -26,43 +26,28 @@
 <!-- end of scripts -->
 
 <body id="bodystyle_01">
-    <!--Start of NavBar-->
-    <nav class="navbar navbar-expand-sm header fixed-top">
-        <a class="navbar-brand hText align-items-center" style="font-size: 26px;" href="index.php">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trees" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#bbe1fa" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z"/>
-            <rect x="4" y="3" width="8" height="14" rx="4" />
-            <rect x="12" y="7" width="8" height="10" rx="3" />
-            <line x1="8" y1="21" x2="8" y2="13" />
-            <line x1="16" y1="21" x2="16" y2="14" />
-            </svg>
-            <span class="align-middle">danielgreenwood.net</span>
-        </a>
-        <div id="navbarSupportedContent" class="ml-auto">
-            <ul class="navbar-nav">
-
-                <li class="nav-item dropdown navItem">
-                    <a class="nav-link dropdown-toggle hText" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My work</a>
-                    <div class="dropdown-menu dropdown-menu-right dropdownParent" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ran_Parallax.php">Parallax Effect</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Coming_Soon.php">Coming soon</a>
-
-                    </div>
-                </li>
-
-                <li class="nav-item navItem">
-                    <a class="nav-link hText" href="About_Me.php" id="" role="button">About</a>
-                </li>
-               
-            </ul>
-        </div>
-    </nav>
-       <!--End of NavBar-->
-  
-    <div class="container align-middle below-header-far">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="mx-auto navButton">
+                <a href="Index.php"><h1 class="text-center">danielgreenwood.net</h1></a> 
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item navButton">
+                    <a href="lin_parallax.php"><h2 class="align-middle">Parallax linear</h2></a>
+                </li>
+                <li class="nav-item navButton">
+                    <a href="ran_parallax.php"><h2 class="align-middle">Parallax spread</h2></a>
+                </li>
+                <li class="nav-item navButton">
+                    <a href="about_me.php"><h2 class="align-middle">About</h2></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        <div class="row">
+            <div class="col-sm-8 mx-auto">
                 <div class="media_carousel slick_H">
                     <a href="lin_parallax.php" class="carousel-Box">
                         <video autoplay muted loop>
@@ -101,6 +86,8 @@
             </div>
         </div>
     </div>
+
+   </div>
     <footer class="container-fluid header fixed-bottom">
         <div class="row py-1">
             <div class="col-sm -sm">
