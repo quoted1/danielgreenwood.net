@@ -1,23 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    
-    <title>Object spawning</title>
+    <meta name="description" content="This webpage is in development and is coming soon" />
+    <title>Coming Soon</title>
     <link rel="icon" href="Media/Images/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="Media/Images/favicon.ico" type="image/x-icon" />
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Scripts/CSS/General.css" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
 </head>
+
+<!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="packages/jquery-ui/jquery-ui.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<body id="bodystyle_05">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="Scripts/Javascript/Index.js" defer></script>
+    <script type="text/javascript" src="packages/stext.js/ztext.min.js" defer></script>
+    <script type="text/javascript" src="Scripts/Javascript/ztext.customizer.js" defer></script>
+<!-- end of scripts -->
+
+<body id="bodystyle_04">
     <!--Start of NavBar-->
     <nav class="navbar navbar-expand-sm header fixed-top">
         <a class="navbar-brand hText align-items-center" style="font-size: 26px;" href="index.php">
@@ -51,48 +58,22 @@
         </div>
     </nav>
        <!--End of NavBar-->
-
-    <div class="container-fluid below-header-close objectHousing">
-        <img src="Images/Shapes/1.png" data-speed="1" class="physicsObject">
-
+    <div class="container">
+        <div class="mx-auto coming_soon">
+            <h1 class="text-center ztext_pointer">Coming Soon</h1> 
+        </div>
     </div>
+
     <footer class="container-fluid header fixed-bottom">
         <div class="row py-1">
             <div class="col-sm -sm">
                 <span class="hText-sm align-middle">2020 danielgreenwood.net</span>
             </div>
             <div class="col-sm -sm ml-auto">
+            
             </div>
         </div>
     </footer>
-
-
-    <script>
-        let object = true;
-        $(window).keypress(function(e) {
-            if (e.keyCode == 0 || e.keyCode == 32) {
-                console.log('Space pressed');
-                $(".objectHousing").append("<img src='Images/Shapes/1.png' data-speed='1' class='physicsObject'>")
-            }
-        });
-
-        while(object === true){
-            console.log("object = true");
-                jquery.each('.physicsObject', moveObject(e){
-
-                let xTrans = physicsObject.style.translateX;
-                let yTrans = physicsObject.style.translateY;
-
-                xTrans = xTrans + 5;
-
-                //physicsObject.style.transform = `translateX(${x}px) translateY(${y}px)`
-            });
-        }
-        
-
-
-    </script>
-
 
 </body>
 </html>

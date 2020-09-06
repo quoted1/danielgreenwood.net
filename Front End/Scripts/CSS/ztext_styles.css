@@ -1,0 +1,29 @@
+
+.ztext_p_lg{
+    font-size: 2em;
+	font-weight: 300;
+}
+.ztext_p_md{
+    font-size: 1.5em;
+	font-weight: 300;
+}
+.ztext_p_sm{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.ztext_t_lg{
+    font-size: 7em;
+	font-weight: 800;
+}
+.ztext_t_md{
+    font-size: 4em;
+	font-weight: 800;
+}
+.ztext_t_sm{
+    font-size: 2.5em;
+	font-weight: 800;
+}
+
+.z-layer:not(:first-child){
+	color: #0f4c75;
+}
