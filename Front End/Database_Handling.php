@@ -65,13 +65,39 @@
             echo '<p>Connection to MySQL server successfully established.</p >';
         }
 
-        $query = "SELECT * FROM Users";
-
-        if ($result = mysqli_query($conn, $query)) {
+        $query_01 = "SELECT * FROM Users WHERE Username = 'Admin'";
+        if ($result = mysqli_query($conn, $query_01)) {
             $row = mysqli_fetch_array($result);
-            print_r($row);
+            echo "Email - ".$row[Email]." | Username - ".$row[Username];
         }
-        
+
+        $query_02 = "SELECT * FROM Users 
+                        WHERE Username = 'dgwood'";
+
+        $query_03 = "INSERT INTO `Users` (`Email`, `Username`, `Password`)   
+                        VALUES('dangreenwood@zoho.com', 'dgwood', 'Password123')";
+
+        $query_04 = "UPDATE Users 
+                        SET Email = 'd.greenwood@pitchero.com' 
+                        WHERE Username = 'dgwood' 1 LIMIT 1";
+
+        $result = mysqli_query($conn, $query_02);
+        $row = mysqli_fetch_array($result);
+        if ($row[Username] == "dgwood") {
+            echo "<p>dgwood exists already, checking Email<p>";
+            if ($row[Email] == "dangreenwood@zoho.com") {
+                echo "<p>Email = dangreenwood@zoho.com, Updating to d.greenwood@pitchero.com</p>";
+                mysqli_query($conn, $query_04);
+            } else {
+                echo "<p>Email = d.greenwood@pitchero.com, no need to change anything</p>";
+            }
+        } else {
+            echo "<p>dgwood doesnt exist, adding new user<p>";
+            mysqli_query($conn, $query_03);
+            $result = mysqli_query($conn, $query_02);
+            $row = mysqli_fetch_array($result);
+            echo "New user added: Email - ".$row[Email]." | Username - ".$row[Username];
+        }
 
 
     ?>
