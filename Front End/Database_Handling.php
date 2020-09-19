@@ -52,55 +52,7 @@
             </div>
         </form>
     </div>
-    <?php
-        $host_name = 'db5000823181.hosting-data.io';
-        $database = 'dbs728901';
-        $user_name = 'dbu675406';
-        $password = 'hcWa5NVCP7IlG$u';
-        $conn = mysqli_connect($host_name, $user_name, $password, $database);
-
-        if (mysqli_connect_errno()) {
-            die('<p>Failed to connect to MySQL: '.mysqli_connect_error().'</p>');
-        } else {
-            echo '<p>Connection to MySQL server successfully established.</p >';
-        }
-
-        $query_01 = "SELECT * FROM Users WHERE Username = 'Admin'";
-        if ($result = mysqli_query($conn, $query_01)) {
-            $row = mysqli_fetch_array($result);
-            echo "Email - ".$row[Email]." | Username - ".$row[Username];
-        }
-
-        $query_02 = "SELECT * FROM Users 
-                        WHERE Username = 'dgwood'";
-
-        $query_03 = "INSERT INTO `Users` (`Email`, `Username`, `Password`)   
-                        VALUES('dangreenwood@zoho.com', 'dgwood', 'Password123')";
-
-        $query_04 = "UPDATE Users 
-                        SET Email = 'd.greenwood@pitchero.com' 
-                        WHERE Username = 'dgwood' 1 LIMIT 1";
-
-        $result = mysqli_query($conn, $query_02);
-        $row = mysqli_fetch_array($result);
-        if ($row[Username] == "dgwood") {
-            echo "<p>dgwood exists already, checking Email<p>";
-            if ($row[Email] == "dangreenwood@zoho.com") {
-                echo "<p>Email = dangreenwood@zoho.com, Updating to d.greenwood@pitchero.com</p>";
-                mysqli_query($conn, $query_04);
-            } else {
-                echo "<p>Email = d.greenwood@pitchero.com, no need to change anything</p>";
-            }
-        } else {
-            echo "<p>dgwood doesnt exist, adding new user<p>";
-            mysqli_query($conn, $query_03);
-            $result = mysqli_query($conn, $query_02);
-            $row = mysqli_fetch_array($result);
-            echo "New user added: Email - ".$row[Email]." | Username - ".$row[Username];
-        }
-
-
-    ?>
+    
 
     <footer class="container-fluid header fixed-bottom">
         <div class="row py-1">
@@ -112,6 +64,7 @@
 
 </body>
 <!-- scripts -->
+    <script src="Scripts/php/sqlQuery.php"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="packages/jquery-ui/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
