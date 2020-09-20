@@ -14,23 +14,38 @@
     <link rel="stylesheet" type="text/css" href="Scripts/CSS/ztext_styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link src="packages/jquery-ui/jquery-ui.js"></script>
-    <link>
+
 
 </head>
 <body id="bodystyle_05">
  <!--Start of NavBar-->
  <?php include 'Scripts/php/pageParts/header.php'; ?>
     <div class="container">
-        <form class="below-header-close ">
-            <div class="col-lg">
-                <div class="row justify-content-center">
-                    <p class="text-center ztext_t_md">Heading</p>
-                </div>
-                <div class="row justify-content-center">
-                    <input type="" name=""/>
-                </div>
+        <div class="below-header-close col-lg">
+            <div class="row justify-content-center">
+                <form class="loginForm" method="post" action="log_in()">
+                    <div class="row justify-content-center">
+                        <p class="text-center ztext_t_sm">Log in</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <input class="input_text" type="text" name="emailUsername" placeholder="Email or Username"/>
+                    </div>
+                    <div class="row justify-content-center">
+                        <input id="loginPass" class="input_text" type="password" name="loginPass" placeholder="Password" />
+                    </div>
+                    <div class="row justify-content-center">
+                        <input class="align-middle" type="checkbox" name="pass1toggle" onclick="showLoginPass()"><span>Show Password</span>
+                    </div>
+                    <div class="row justify-content-center">
+                        <input class="input_submit" type="submit" name="submit_login" value="Submit" />
+                    </div>
+                    <div id="invalidPass">
+                        <p class="ztext_t_sm text-justify text-center">Invalid password</p>
+                    </div>
+                </form>
+               
             </div>
-        </form>
+        </div>
     </div>
     
 
@@ -44,9 +59,13 @@
 
 </body>
 <!-- scripts -->
+    
+    <?php include 'Scripts/php/sqlQuery.php'; ?>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="packages/jquery-ui/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="Scripts/Javascript/loginForm.js" type="text/javascript"></script>
 <!-- end of scripts -->
 </html>

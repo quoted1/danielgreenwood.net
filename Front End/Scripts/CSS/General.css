@@ -1,4 +1,4 @@
-m* {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Barlow', sans-serif;
@@ -16,6 +16,10 @@ body{
 h1{
     font-size: 7em;
     font-weight: 800;
+}
+p{
+    padding: 0;
+    margin: 0;
 }
 #bodystyle_01 {
     background-color: #bbe1fa;
@@ -318,4 +322,24 @@ h1{
     border-right: 5px solid #1b262c;
     border-radius: 10px; 
     background: #bbe1fa;
+}
+.loginForm{
+    width: 350px;
+    margin:10px;
+    padding: 5px;
+    border-radius: 10px; 
+    background: #1b262c;
+    color: #bbe1fa;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(27,38,44,1);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(27,38,44,1);
+    box-shadow: 3px 3px 7px 0px rgba(27,38,44,1);
+}
+.loginForm div{
+    padding:5px;
+}
+.loginForm div .input_text{
+    width: 75%;
+}
+.loginForm div .input_submit{
+    width: 40%;
 }

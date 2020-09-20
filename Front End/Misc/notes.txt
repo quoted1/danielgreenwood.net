@@ -3,3 +3,17 @@ colour palette - https://colorhunt.co/palette/196113
 backgrounds - https://www.svgbackgrounds.com/
 
 icons - https://tablericons.com/
+
+$result = mysqli_query($conn, $query_02);
+    $row = mysqli_fetch_array($result);
+    if ($row[Email] != "") {
+        if ($row[Email] == "dangreenwood@zoho.com") {
+            echo "<p>Email = dangreenwood@zoho.com, Updating to d.greenwood@pitchero.com</p>";
+            mysqli_query($conn, $query_04);
+        } else {
+            echo "<p>Email = d.greenwood@pitchero.com, no need to change anything</p>";
+        }
+    } else {
+        echo "<p>No User called <strong>dgwood</strong>, adding now</p>";
+        mysqli_query($conn, $query_03);
+    }
